@@ -11,7 +11,7 @@ namespace Ordering.API.Extensions
     {
         public static IHost MigrateDatabase<TContext>(this IHost host,
             Action<TContext, IServiceProvider> seeder,
-            int? retry =0) where TContext :DbContext
+            int? retry =0) where TContext : DbContext
         {
             int retryForAvailability = retry.Value;
 
@@ -52,7 +52,7 @@ namespace Ordering.API.Extensions
             TContext context, IServiceProvider services) 
             where TContext : DbContext
         {
-             context.Database.Migrate();
+            context.Database.Migrate();
             seeder(context, services);
         }
     }
