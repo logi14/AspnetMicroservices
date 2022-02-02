@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{D5C0BA61-F19A-48BA-8C3D-4FFAA2A2C970}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{6B32347F-3478-48F5-89FD-5422C7ECA053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{B0657F4F-B012-4845-90AE-4DE7C7FCF0F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{D5C0BA61-F19A-48BA-8C3D-4FFAA2A2C970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C0BA61-F19A-48BA-8C3D-4FFAA2A2C970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C0BA61-F19A-48BA-8C3D-4FFAA2A2C970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0657F4F-B012-4845-90AE-4DE7C7FCF0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0657F4F-B012-4845-90AE-4DE7C7FCF0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0657F4F-B012-4845-90AE-4DE7C7FCF0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0657F4F-B012-4845-90AE-4DE7C7FCF0F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{E419C627-0F0F-4F0F-A54D-4F90BDE6537A} = {5F6AF0AA-1F2A-40F5-B36A-F7976BAC8B66}
 		{61C21D7D-C234-4E55-9645-EF220078389E} = {5F6AF0AA-1F2A-40F5-B36A-F7976BAC8B66}
 		{D5C0BA61-F19A-48BA-8C3D-4FFAA2A2C970} = {5F6AF0AA-1F2A-40F5-B36A-F7976BAC8B66}
+		{B0657F4F-B012-4845-90AE-4DE7C7FCF0F1} = {6B32347F-3478-48F5-89FD-5422C7ECA053}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8208582C-354F-4B95-A5F6-B5D0999E785F}
